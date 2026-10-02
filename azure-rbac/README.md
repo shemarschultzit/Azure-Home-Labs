@@ -52,6 +52,26 @@ Reviewed the resource group's **Role assignments** page and confirmed that:
 
 Used the Azure Activity Log to verify that the RBAC role assignment operation was successfully recorded.
 
+## Verification
+
+The RBAC configuration was verified by reviewing the role assignments for the resource group.
+
+The managed identity `id-rbac-homelab` successfully appeared with the `Reader` role assigned at the resource-group scope.
+
+The Azure Activity Log was also reviewed to confirm that the role assignment operation completed successfully.
+
+## Skills Demonstrated
+
+- Azure Resource Group Management
+- Azure Role-Based Access Control (RBAC)
+- Azure Managed Identities
+- Least-Privilege Access
+- Access Control (IAM)
+- Azure Activity Log Monitoring
+- Cloud Security Fundamentals
+- Azure Portal Administration
+- Technical Documentation
+- GitHub Project Documentation
 
 ## Screenshots
 
