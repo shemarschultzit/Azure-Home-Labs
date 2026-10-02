@@ -73,6 +73,20 @@ The Azure Activity Log was also reviewed to confirm that the role assignment ope
 - Technical Documentation
 - GitHub Project Documentation
 
+## Lessons Learned
+
+This lab demonstrated the difference between Azure resource permissions and Microsoft Entra directory permissions.
+
+I learned how Azure RBAC can be applied at the resource-group scope and how managed identities can be used as security principals for role assignments.
+
+I also gained hands-on experience with the principle of least privilege by assigning the `Reader` role instead of a higher-privilege role.
+
+Reviewing the Azure Activity Log helped reinforce how administrative changes can be audited and verified after configuration.
+
+## Resume Project Bullet
+
+- Built an Azure RBAC lab by creating a resource group, deploying a user-assigned managed identity, assigning least-privilege `Reader` access through IAM, and validating the role assignment using Azure Activity Logs.
+
 ## Screenshots
 
 ### Resource Group Created
