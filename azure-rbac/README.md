@@ -19,3 +19,22 @@ The objective of this lab was to gain hands-on experience with Microsoft Azure R
 - Managed Identity: `id-rbac-homelab`
 - RBAC Role: `Reader`
 - Scope: Resource Group
+
+
+## Screenshots
+
+### Resource Group Created
+
+![Resource Group Created](screenshots/1-creating-resource-group.png)
+
+### Managed Identity Created
+
+![Managed Identity Created](screenshots/2-id-rbac-homelab.png)
+
+### Reader Role Assigned
+
+![Reader Role Assigned](screenshots/3-reader-role-assigned.png)
+
+### RBAC Activity Log
+
+![RBAC Activity Log](screenshots/4-rbac-activity-log.png)
