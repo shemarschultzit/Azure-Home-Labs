@@ -1,0 +1,19 @@
+# Azure / Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfvars
+
+# Environment variables
+.env
+.env.*
+
+# Credentials and secrets
+credentials.json
+secrets.json
+*.pem
+*.pfx
+*.key
+
+# Azure authentication
