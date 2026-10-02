@@ -16,4 +16,16 @@ secrets.json
 *.pfx
 *.key
 
-# Azure authentication
+# Azure authentication/cache
+.azure/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
