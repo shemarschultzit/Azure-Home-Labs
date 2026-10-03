@@ -89,3 +89,37 @@ Verified that:
 - `nsg-servers` is associated with the server subnet
 - RDP traffic from the client subnet is explicitly allowed
 - Other client-to-server traffic is explicitly denied
+
+## Screenshots
+
+### Networking Resource Group
+
+![Networking Resource Group](screenshots/1-networking-resource-group.png)
+
+### Server Subnet Created
+
+![Server Subnet](screenshots/2-vnet-server-subnet.png)
+
+### Two Subnets Created
+
+![Two Subnets](screenshots/3-two-subnets-created.png)
+
+### Network Security Group Created
+
+![Network Security Group](screenshots/4-network-security-group-created.png)
+
+### NSG Associated to Server Subnet
+
+![NSG Association](screenshots/5-nsg-associated-to-server-subnet.png)
+
+### RDP Security Rule
+
+![RDP Security Rule](screenshots/6-rdp-security-rule.png)
+
+### Network Segmentation Rules
+
+![Network Segmentation Rules](screenshots/7-network-segmentation-rules.png)
+
+### Final Network Configuration
+
+![Final Network Configuration](screenshots/8-final-network-configuration.png)
