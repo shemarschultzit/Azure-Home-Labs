@@ -90,6 +90,45 @@ Verified that:
 - RDP traffic from the client subnet is explicitly allowed
 - Other client-to-server traffic is explicitly denied
 
+## Verification
+
+The final network configuration was verified by reviewing the virtual network and subnet configuration in the Azure portal.
+
+The lab confirmed that:
+
+- `vnet-homelab` uses the address space `10.10.0.0/16`
+- `snet-servers` uses `10.10.1.0/24`
+- `snet-clients` uses `10.10.2.0/24`
+- `nsg-servers` is associated with the server subnet
+- RDP traffic from the client subnet is allowed on TCP port `3389`
+- Other traffic from the client subnet to the server subnet is denied
+
+## Skills Demonstrated
+
+- Azure Virtual Networks
+- Subnet Design
+- CIDR Addressing
+- Network Security Groups
+- Inbound Security Rules
+- Network Segmentation
+- Azure Resource Management
+- Least-Privilege Network Access
+- Azure Portal Administration
+- Technical Documentation
+- GitHub Project Documentation
+
+## Lessons Learned
+
+This lab reinforced how Azure virtual networks and subnets are used to separate systems into logical network segments.
+
+I learned how Network Security Groups can control traffic at the subnet level and how rule priority affects which traffic is allowed or denied.
+
+I also gained additional practice with CIDR notation and designing address ranges that do not overlap.
+
+## Resume Project Bullet
+
+- Built an Azure networking lab with a custom virtual network, segmented server and client subnets, subnet-level NSG protection, and priority-based inbound rules to allow RDP while denying other client-to-server traffic.
+
 ## Screenshots
 
 ### Networking Resource Group
