@@ -28,3 +28,49 @@ The objective of this lab was to deploy and administer a Windows Server virtual 
 - Subnet: `snet-servers`
 - Server Subnet Range: `10.10.1.0/24`
 - Network Security Group: `nsg-servers`
+
+## Implementation
+
+### 1. Deployed the Windows Server Virtual Machine
+
+Created an Azure virtual machine named `vm-winserver01` using Windows Server 2025 Datacenter: Azure Edition.
+
+The VM was deployed with the `Standard_D2as_v4` size.
+
+### 2. Connected the VM to the Existing Network
+
+Placed the VM inside the existing Azure networking environment:
+
+- Virtual Network: `vnet-homelab`
+- Subnet: `snet-servers`
+- Subnet Range: `10.10.1.0/24`
+
+The existing subnet-level Network Security Group, `nsg-servers`, continued to control inbound traffic.
+
+### 3. Configured Temporary RDP Access
+
+Created a temporary inbound NSG rule allowing TCP port `3389` only from my current public IP address.
+
+This allowed secure Remote Desktop access without exposing RDP to the entire internet.
+
+### 4. Connected to Windows Server with RDP
+
+Connected to the Windows Server VM using Remote Desktop and the administrator account created during deployment.
+
+### 5. Renamed the Server
+
+Renamed the Windows Server computer to:
+
+`WIN-SRV01`
+
+The server was restarted to apply the hostname change.
+
+### 6. Verified the Network Configuration
+
+Used PowerShell commands including:
+
+```powershell
+hostname
+ipconfig
+
+
