@@ -71,7 +71,53 @@ Used PowerShell commands including:
 
 ```powershell
 hostname
-ipconfig
+`ipconfig`
+````
+## Verification
+
+The Windows Server deployment was verified by reviewing both the Azure portal and the operating system configuration inside the virtual machine.
+
+The lab confirmed that:
+
+- `vm-winserver01` was successfully deployed in Azure
+- The VM was connected to `vnet-homelab`
+- The VM was placed in the `snet-servers` subnet
+- Remote Desktop access worked using a temporary IP-restricted NSG rule
+- The server hostname was changed to `WIN-SRV01`
+- The VM received a private IP address from the `10.10.1.0/24` subnet
+- IIS was successfully installed and the default web page loaded locally
+- The temporary RDP rule was removed after administration
+- The VM was stopped and deallocated after the lab
+
+## Skills Demonstrated
+
+- Azure Virtual Machine Deployment
+- Windows Server Administration
+- Azure Virtual Networking
+- Network Security Groups
+- Secure RDP Access
+- Server Manager
+- PowerShell
+- Hostname Configuration
+- IP Configuration Verification
+- IIS Web Server Installation
+- Azure Resource Cleanup
+- Technical Documentation
+- GitHub Project Documentation
+
+## Lessons Learned
+
+This lab reinforced how Azure virtual machines integrate with existing virtual networks and subnets.
+
+I gained hands-on experience securing administrative access by limiting RDP to a specific public IP address instead of exposing port 3389 to the internet.
+
+I also practiced basic Windows Server administration, including renaming a server, verifying network configuration with PowerShell, installing IIS, and confirming the web server was functioning correctly.
+
+The lab also reinforced the importance of removing temporary access rules and deallocating virtual machines when they are not in use.
+
+## Resume Project Bullet
+
+- Deployed and administered a Windows Server 2025 VM in Azure, integrated it with a segmented virtual network, secured RDP access with NSG rules, verified networking with PowerShell, installed IIS, and deallocated resources after testing.
 
 ## Screenshots
 
