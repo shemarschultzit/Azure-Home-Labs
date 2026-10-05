@@ -73,4 +73,36 @@ Used PowerShell commands including:
 hostname
 ipconfig
 
+## Screenshots
 
+### Windows Server VM Created
+
+![Windows Server VM Created](screenshots/1-windows-server-vm-created.png)
+
+### Temporary RDP Rule Added
+
+![Temporary RDP Rule](screenshots/2-temporary-rdp-rule.png)
+
+### Connected to Windows Server with RDP
+
+![RDP Connection](screenshots/3-rdp-connected-to-windows-server.png)
+
+### Server Manager - Local Server
+
+![Server Manager](screenshots/4-server-manager-local-server.png)
+
+### Server Network Verification
+
+![Server Network Verification](screenshots/5-server-network-verification.png)
+
+### IIS Web Server Installed
+
+![IIS Web Server](screenshots/6-iis-web-server-installed.png)
+
+### Temporary RDP Rule Removed
+
+![RDP Rule Removed](screenshots/7-temporary-rdp-rule-removed.png)
+
+### Virtual Machine Deallocated
+
+![VM Deallocated](screenshots/8-vm-deallocated.png)
